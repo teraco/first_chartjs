@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld';
 import Hoge from '@/components/Hoge';
 import Home from '@/components/Home';
 import VueChartJS from '@/components/VueChartJS';
+import SnowChartJS from '@/components/SnowChartJS';
 
 // import VueChartKick from '@/components/VueChartKick'
 // import VueCharts from '@/components/VueCharts'
@@ -31,6 +32,11 @@ export default new Router({
       path: '/chartjs',
       name: 'VueChartjs',
       component: VueChartJS,
+    },
+    {
+      path: '/snowchartjs',
+      name: 'SnowChartjs',
+      component: SnowChartJS,
     },
   ],
 });

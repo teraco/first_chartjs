@@ -1,31 +1,21 @@
 <template>
   <section class="container">
-    <ul>
-      <li><router-link to="/Home">Home</router-link></li>
-      <li><router-link to="/chartjs">vue-chartjs</router-link></li>
-    </ul>
     <h1>Demo examples of vue-chartjs</h1>
     <div class="columns">
       <div class="column">
         <h3>Line chart</h3>
-          <LineChart></LineChart>
-      </div>
-      <div class="column">
-        <h3>Bar chart</h3>
-          <bar-chart></bar-chart>
+          <SnowLineChart></SnowLineChart>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import LineChart from '@/components/LineChart'
-import BarChart from '@/components/BarChart'
+import SnowLineChart from '@/components/SnowLineChart'
 export default {
   name: 'VueChartJS',
   components: {
-    LineChart,
-    BarChart
+    SnowLineChart
   },
 }
 </script>

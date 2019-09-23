@@ -1,5 +1,9 @@
 <template>
   <div class="hello">
+    <ul>
+      <li><router-link to="/chartjs">vue-chartjs</router-link></li>
+      <li><router-link to="/snowchartjs">snow-chartjs</router-link></li>
+    </ul>
     {{msg}}
     <form>
       <button @click="addTodo()">ADD TASK</button>
@@ -19,6 +23,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: 'HelloWorld',
